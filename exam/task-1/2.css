@@ -1,0 +1,72 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 600px auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#buy {
+  background-color: #008cba;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px auto auto 100px;
+  background: #008cba;
+}
+h3,
+h1 {
+  color: azure;
+}
+.grid-item2 {
+  margin-top: 400px;
+  text-align: left;
+}
+.content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  height: 200px;
+  margin-top: 100px;
+  border-bottom: grey;
+}
+.social {
+  display: grid;
+  grid-template-columns: 200px auto auto 200px;
+}
+.social1,
+.social2 {
+  width: 400px;
+  text-align: left;
+}
+
+.heading {
+  text-align: center;
+}
+
+.feature-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
